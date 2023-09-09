@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.1.4",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",
@@ -26,10 +26,11 @@
     "@types/react": "17.0.43",
     "@types/react-dom": "17.0.14",
     "ast-pretty-print": "^2.0.1",
-    "chronstruct-primitives-lite": "^0.0.8",
+    "display-primitives": "^0.0.10",
     "eslint": "8.12.0",
-    "eslint-config-next": "12.1.4",
+    "eslint-config-next": "^13.4.19",
     "next-linaria": "1.0.1-beta",
+    "next-with-linaria": "^0.5.1",
     "prettier": "^2.6.2",
     "typescript": "4.6.3"
   }

@@ -233,8 +233,7 @@ export const Text = ({
   children,
   ...props
 }: Props) => (
-  <txt
-    $={Comp}
+  <Comp
     {...props}
     className={cx(
       styles[style],
@@ -255,5 +254,5 @@ export const Text = ({
     ) : (
       children
     )}
-  </txt>
+  </Comp>
 )

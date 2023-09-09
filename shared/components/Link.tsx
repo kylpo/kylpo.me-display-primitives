@@ -1,6 +1,6 @@
 import React from 'react'
 import { css, cx } from '@linaria/core'
-import Link_ from 'next/link'
+import NextLink from 'next/link'
 import { GREY } from '../utils/colors'
 import { Text } from './Text'
 
@@ -13,13 +13,9 @@ interface Props {
 
 export function Link(props: Props) {
   return (
-    <Link_
-      passHref
-      href={props.to}
-    >
+    <NextLink href={props.to}>
       <Text
         center
-        as="a"
         style="t4"
         color="dark"
         className={cx(
@@ -35,6 +31,6 @@ export function Link(props: Props) {
       >
         {props.children}
       </Text>
-    </Link_>
+    </NextLink>
   )
 }

@@ -1,4 +1,3 @@
-import type { NextPage } from 'next'
 import Image from 'next/image'
 import { MEDIUM_UP } from '../shared/utils/breakpoints'
 import { BlACK, DARK, WHITE } from '../shared/utils/colors'
@@ -13,7 +12,7 @@ const LINK_STYLE = css`
   padding: 2px 0;
 `
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <>
       <column
