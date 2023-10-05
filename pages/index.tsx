@@ -5,6 +5,7 @@ import { MAX_PAGE_WIDTH } from '../shared/utils/sizes'
 import { css } from '@linaria/core'
 import { Text } from '../shared/components/Text'
 import { Link } from '../shared/components/Link'
+import SiteNavBar from '../components/SiteNavBar'
 
 const CONTENT_OFFSET = 32
 
@@ -15,6 +16,7 @@ const LINK_STYLE = css`
 const Home = () => {
   return (
     <>
+      <SiteNavBar />
       <column
         $="main"
         className={css`
